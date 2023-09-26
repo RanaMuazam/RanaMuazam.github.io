@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - CV</title>
+    <!-- Add Bootstrap CSS and JavaScript links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Your custom CSS styles below -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('your-background-image.jpg'); /* Background image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Fixed background */
+        }
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Add an opaque white background to your content for readability */
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .cv-header {
+            text-align: center;
+        }
+        .cv-photo {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        .cv-name {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .cv-contact {
+            margin: 20px 0;
+        }
+        .cv-navigation {
+            text-align: center;
+            background-color: #333; /* Background color for navigation bar */
+            padding: 10px 0;
+        }
+        .cv-navigation a {
+            color: #fff; /* Text color for navigation links */
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+        .cv-section {
+            margin-top: 20px;
+        }
+        .cv-section h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #4caf50; /* Green color for section titles */
+        }
+        .cv-section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .skill-bar {
+            display: flex;
+            align-items: center;
+        }
+        .skill-label {
+            flex: 1;
+        }
+        .skill-progress {
+            flex: 3;
+            height: 15px;
+            background-color: #ccc;
+            border-radius: 5px;
+        }
+        .skill-progress-bar {
+            height: 100%;
+            background-color: #4caf50;
+            border-radius: 5px;
+        }
+        .icon {
+            color: #2196F3; /* Blue color for icons */
+            margin-right: 5px;
+        }
+        .social-media {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-media a {
+            font-size: 24px;
+            color: #2196F3; /* Blue color for social media icons */
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-navigation">
+        <a href="#objective">Objective</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+    </div>
+    <div class="cv-container">
+        <div class="cv-header">
+            <img class="cv-photo" src="muazam.jpeg" alt="Your Photo">
+            <h1 class="cv-name">Muazam Munawar</h1>
+            <p class="cv-contact">Address: Chak No. 4/W.B, Vehari<br>
+            Email: ranamuazam004@gmail.com.com<br>
+            Phone: +923336264940</p>
+        </div>
+        <div class="cv-section" id="objective">
+            <h2><i class="icon fas fa-bullseye"></i> Objective</h2>
+            <p> I want to get doctorate level degree in Computer science to achieve this goal i want to move towards Canada. My plan after PHD i want to server for my home country for better in this field and bring awareness in young generation in my country. </p>
+        </div>
+        <div class="cv-section" id="education">
+            <h2><i class="icon fas fa-graduation-cap"></i> Education</h2>
+            <ul>
+                <li>Bachelor of Science in Software Engineering - Comsats institute of information technology Islamabad (2024)</li>
+                <li>intermediate - Aspire colleges (2019)</li>
+            </ul>
+        </div>
+        <div class="cv-section" id="experience">
+            <h2><i class="icon fas fa-briefcase"></i> Experience</h2>
+            <ul>
+                <li>Junior developer - LogicsSol (2022)</li>
+            </ul>
+        </div>
+        <div class="cv-section" id="skills">
+            <h2><i class="icon fas fa-cogs"></i> Skills</h2>
+            <div class="skill-bar">
+                <span class="skill-label">HTML</span>
+                <div class="skill-progress">
+                    <div class="skill-progress-bar" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <span class="skill-label">CSS</span>
+                <div class="skill-progress">
+                    <div class="skill-progress-bar" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <span class="skill-label">JavaScript</span>
+                <div class="skill-progress">
+                    <div class="skill-progress-bar" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <span class="skill-label">Microsoft Office</span>
+                <div class="skill-progress">
+                    <div class="skill-progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/rana-muazam-670464247" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/RanaMuazam5?t=mc7P9pST2JCOG_FAx1Bzmw&s=08" target="_blank"><i class="fab fa-twitter"></i></a>
+            <!-- Add more social media icons and links as needed -->
+        </div>
+    </div>
+</body>
+</html>
